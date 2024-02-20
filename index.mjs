@@ -8,9 +8,9 @@ import cors  from "cors";
 import * as http from 'http'
 
 
-const PORT= 9000;
+const PORT= process.env.PORT;
 
-mongoose.connect("mongodb+srv://mariyahwatson:M900nbnaldkj@cluster0.fnxa0qy.mongodb.net/ContactForm");
+mongoose.connect(process.env.URI);
 import contact from './routes/form.mjs';
 
 const corsOptions ={

@@ -10,7 +10,7 @@ import * as http from 'http'
 
 const PORT= process.env.PORT;
 
-mongoose.connect(process.env.URI);
+mongoose.connect("mongodb+srv://mariyahwatson:M900nbnaldkj@cluster0.fnxa0qy.mongodb.net/ContactForm");
 import contact from './routes/form.mjs';
 
 const corsOptions ={

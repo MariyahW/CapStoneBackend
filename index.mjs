@@ -4,12 +4,20 @@ dotenv.config();
 import mongoose from 'mongoose';
 import bodyParser from "body-parser";
 const app = express();
+import cors  from "cors";
 
 const PORT= process.env.PORT;
 
 mongoose.connect(process.env.URI);
 import contact from './routes/form.mjs';
 
+const corsOptions ={
+  origin:"*",
+  credentials: true,
+  optionSuccessStatus:200
+}
+
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use('/contact', contact);
 

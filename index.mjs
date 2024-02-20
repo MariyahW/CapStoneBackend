@@ -21,6 +21,8 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use('/contact', contact);
 
+
+app.get('/', (req, res)=>res.json("Server is running...use /contact"))
 app.get('/contact')
 app.listen(PORT, () => {
     console.log(`Server is running on port: ${process.env.PORT}`);

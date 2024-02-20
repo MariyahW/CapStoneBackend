@@ -45,13 +45,26 @@ These instructions will get you a copy of the project up and running on your loc
 VScode or a different editor of your choice
 ### Installing
 
-npm i react-pdf
+git clone (https://github.com/MariyahW/CapStoneBackend)
 
-npm i mdb-react-ui-kit
+Navigate to the project directory
+cd 
+ npm i cors
 
-npm i react-boostrap
 
-npm i react-router-dom
+  npm i dotenv
+
+  npm i express
+
+  npm i mongodb
+
+  npm i mongoose
+
+  npm i nodemon
+
+Start the application 
+
+npm run start
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
@@ -87,10 +100,7 @@ Add additional notes about how to deploy this on a live system.
 - [Express](https://expressjs.com/) - Server Framework
 - [React](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
-- [Vite]() -React Library
-- [React-Bootstrap]() - Styling
-- [MD-Bootstrap]() - Styling
-- [ReactPDF]() -Render PDF 
+-
 - []
 
 

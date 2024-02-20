@@ -10,7 +10,7 @@ import * as http from 'http'
 
 const PORT= 9000;
 
-mongoose.connect("mongodb+srv://mariyahwatson:M900nbnaldkj@cluster0.fnxa0qy.mongodb.net/ContactForm");
+mongoose.connect("mongodb+srv://mariyahwatson:M900nbnaldkj@cluster0.fnxa0qy.mongodb.net/");
 import contact from './routes/form.mjs';
 
 const corsOptions ={
